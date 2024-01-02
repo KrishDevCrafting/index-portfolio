@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#Tesla-main{
+   
+margin-top: 92px;
+text-align: center;
+    margin-left: -60px;
+    /* border: 3px solid orange; */
+    height: 900px;
+}
+
+.Aizen{
+    
+ margin-left: -165px;
+ text-align: justify;
+ /* border: 1px purple solid; */
+ color: white;
+padding-left: 10px;
+background-color: #071952;
+display: inline-block;
+width: 30%;
+font-family: 'Libre Franklin', sans-serif;
+font-family: 'Noto Sans Multani', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Signika Negative', sans-serif;
+
+}
+.ichigo{
+margin-left: 468px;
+margin-top: -487px;
+  text-align: justify;
+    border: 1px solid red;
+   /* margin-left: 500px; */
+/* display: inline-block; */
+background-color: orange;
+width: 80%;
+
+
+}
+
+
+button{
+    color: orange;
+    background-color: white;
+    border-radius: 35px;
+    padding: 10px 20px;
+    border-style: none;
+    margin: 20px;
+    cursor: pointer;
+    
+}
+
+h3{
+    
+    color: orange;
+font-size: 30px;
+padding: 15px 26px 12px;
+}
+
+#kenny{
+    padding: 14px 7px;
+}
+
+#Toshiro{
+    padding: 21px 7px;
+}
+#Yamamuto{
+    padding: 21px 7px;
+}
+#yhwach{
+    padding: 21px 7px;
+}
+#contact{
+    padding: 21px 7px;
+}
+#icons{
+    padding: 21px 7px;
+    font-size: 20px;
+}
+
+
+
+
+/* .head {
+margin-top: 50px;
+width: 50%;
+border: 1px solid;
+display: inline-block;
+margin-left: -4px;
+}
+.heard-right {
+display: inline-block;
+    border: 1px solid green;
+    width: 50%;
+    margin-left: -4px;
+    text-align: end;
+} */
+
+input,textarea{
+    border-radius: 30px;
+    margin: 10px;
+    padding: 10px;
+    background-color: transparent;
+    
+}
+
+input::placeholder {
+    color: white;
+  }
+ 
+textarea::placeholder {
+    color: white;
+
+  }
+textarea{
+    border-color:white;
+  }
+ 
+ input{
+    width: 75%;
+    border-color: white;
+    border-style: solid;
+ }
+
+
+
+h1{
+    color: white;
+   padding: 20px;
+    background-color: orange;
+}
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,396 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* main {
+  width: ;
+} */
+
+.head-nav {
+  /* border: 5px solid white; */
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  font-family: "Noto Sans Multani", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+.logo,
+.hambarger {
+  display: none;
+}
+
+.nav-text .mc {
+  padding: 20px 20px;
+}
+#home {
+  margin: 0px 0px 0px -20px;
+}
+
+.mc {
+  text-decoration: none;
+  color: white;
+}
+.mc:hover {
+  background-color: gray;
+}
+
+.icon:hover {
+  background-color: red;
+}
+
+.img-box {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  /* width: 100%; */
+  height: 92vh;
+  background-image: url(./image/chicago.png);
+  background-size: cover;
+  background-position: inherit;
+}
+
+.text {
+  color: white;
+}
+
+.box-1 {
+  padding: 10px;
+  text-align: center;
+  font-family: "Noto Sans Multani", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+.container-2 {
+  font-family: "Noto Sans Multani", sans-serif;
+  font-family: "Poppins", sans-serif;
+  margin-top: 3rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box-2 {
+  font-size: 20px;
+  padding: 20px;
+  width: 1000px;
+}
+.text-2 {
+  text-align: justify;
+  color: black;
+}
+
+.text-A {
+  padding: 10px;
+}
+.text-B {
+  padding-bottom: 10px;
+}
+
+/* container-3 */
+
+.container-3 {
+  margin-top: 10vh;
+  font-family: "Noto Sans Multani", sans-serif;
+  font-family: "Poppins", sans-serif;
+  /* border: 1px solid; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box-3 {
+  text-align: center;
+  padding: 55px;
+}
+.img-size {
+  width: 150px;
+  height: 150px;
+}
+.container-4 {
+  font-family: "Noto Sans Multani", sans-serif;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  height: 50vh;
+  text-align: center;
+}
+.box-4 {
+}
+#Tour {
+  font-size: 100px;
+}
+#book {
+  font-size: 20px;
+}
+
+.box-5 {
+  color: gray;
+}
+.change {
+  display: inline-block;
+  padding-right: 50px;
+  margin-top: 50px;
+  color: gray;
+  text-align: justify;
+}
+.btn {
+  background-color: rgb(231, 86, 33);
+  color: white;
+  padding: 10px;
+}
+hr {
+  width: 100%;
+}
+/* .demo::after {
+  content: "";
+  background-color: white;
+} */
+.main-contain {
+  font-family: "Noto Sans Multani", sans-serif;
+  font-family: "Poppins", sans-serif;
+  background-color: black;
+  display: flex;
+
+  justify-content: center;
+
+  /* border: 1px solid green; */
+}
+
+.contain-one {
+  margin-top: 10px;
+  margin: 10px;
+  padding: 20px;
+  width: 330px;
+  /* display: inline-block; */
+  /* padding: 10px; */
+  background-color: aliceblue;
+}
+
+.contain-two {
+  padding: 20px;
+  width: 330px;
+  /* padding: 10px; */
+  margin: 10px;
+  background-color: aliceblue;
+}
+
+.contain-three {
+  padding: 20px;
+  width: 330px;
+  /* display: inline-block; */
+  /* padding: 10px; */
+  background-color: aliceblue;
+  margin: 10px;
+}
+#data {
+  display: inline-block;
+  color: black;
+  font-size: small;
+  text-align: justify;
+}
+
+#a {
+  padding: 5px;
+}
+button {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border: none;
+  margin-right: 110px;
+}
+button:hover {
+  background-color: gray;
+}
+
+#b {
+  color: gray;
+  padding: 5px;
+}
+
+.box-img {
+  width: 300px;
+  height: 300px;
+}
+.container-5 {
+  font-family: "Noto Sans Multani", sans-serif;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+.box-6 {
+  text-align: center;
+  padding: 10px;
+}
+.container-6 {
+  display: flex;
+  justify-content: space-evenly;
+}
+#Message {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  display: block;
+}
+input[type="text"] {
+  padding: 10px;
+}
+input[type="email"] {
+  padding: 10px;
+}
+#send {
+  margin-top: 20px;
+  margin-left: 85%;
+  padding: 10px;
+  background-color: black;
+  color: white;
+}
+#send:hover {
+  background-color: gray;
+}
+.box-7 {
+}
+.container-7 {
+  margin-top: 10px;
+  height: 100vh;
+  background-image: url(./image/map.jpg);
+}
+
+.footer {
+  margin-top: 40px;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+}
+.footer:hover {
+  color: gray;
+}
+
+@media screen and (max-width: 1023px) {
+  .container-2 {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+
+/* Tablet */
+@media (min-width: 426px) and (max-width: 1023px) {
+  body {
+    width: fit-content;
+  }
+}
+
+/* Small Desktop */
+@media (min-width: 769px) and (max-width: 992px) {
+  .navbar {
+    background-color: red;
+  }
+}
+@media screen and (max-width: 426px) {
+  .nav-text,
+  .icon {
+    display: none;
+  }
+  .head-nav {
+    width: 200vw;
+  }
+
+  .logo,
+  .hambarger {
+    display: block;
+  }
+  .img-box {
+    background-repeat: no-repeat;
+    height: 40vh;
+    width: 200vw;
+    /* background-position: center; */
+    background-size: 200vw 40vh;
+  }
+  .box-1 {
+    margin-bottom: 1vh;
+  }
+  .box-2 {
+  }
+  .text-A {
+    font-size: 80px;
+    font-weight: 100;
+  }
+
+  .text-B {
+    font-size: 25px;
+    color: gray;
+    font-style: italic;
+  }
+  .text-2 {
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .text {
+    color: white;
+  }
+  .container-2 {
+    padding-top: 40%;
+    margin: 0%;
+    width: 200vw;
+  }
+  .container-3 {
+    display: block;
+    width: 200vw;
+  }
+  .box-3 {
+    font-size: 30px;
+    padding: 10px;
+  }
+  .img-size {
+    width: 100vw;
+    height: 50vh;
+  }
+  .container-4 {
+    width: 200vw;
+    height: 100vh;
+  }
+  .box-4,
+  #Tour,
+  #book {
+    font-size: 50px;
+  }
+  .main-contain {
+    padding-left: 50%;
+    width: 200vw;
+    gap: 20px;
+    flex-direction: column;
+  }
+  .contain-one,
+  .contain-two,
+  .contain-three {
+    padding: 0%;
+    width: 95vw;
+    height: 460px;
+  }
+  .box-img {
+    width: 95vw;
+  }
+  .container-5 {
+    width: 200vw;
+  }
+  .container-6 {
+    font-family: "Raleway", sans-serif;
+
+    width: 150vw;
+  }
+  .box-7 {
+    padding: 10px 0px;
+  }
+  .container-7,
+  .footer {
+    width: 200vw;
+  }
+  .container-6 {
+    padding-left: 80px;
+  }
+}

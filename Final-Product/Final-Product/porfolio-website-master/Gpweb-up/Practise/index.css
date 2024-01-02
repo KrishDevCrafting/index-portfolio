@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+.box {
+  width: 400px;
+  height: 1000px;
+  border: 2px solid black;
+  padding: 30px;
+}
+
+#one {
+  width: 300px;
+  height: 600px;
+}
+#two {
+  width: 330px;
+  height: 400px;
+}
+#three {
+  width: 300px;
+  height: 300px;
+}
+#etc {
+  width: 300px;
+  height: 200px;
+}
+#lamb {
+  height: 500px;
+  width: 200px;
+}
